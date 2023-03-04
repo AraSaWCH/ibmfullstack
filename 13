@@ -1,0 +1,14 @@
+public_users.get('/title/:title', function (req, res) {
+let ans = []
+for(const [key, values] of Object.enteries(books)) {
+const book = Object.enteries(values);
+for(let i = 0, i <book.lengthg; i++) {
+if (book[i][0] == 'title' && book[i][1] ==req.params.title){
+ans.push(books[key]);}
+}
+}
+if (ans.length ==0){
+return res.status(300).json({message: "Title not found"});
+}
+res.send(ans);
+});
