@@ -1,0 +1,14 @@
+public_users.get('/author/:author', function (req, res) {
+let ans = []
+for (const [Key, values] of Object.enteries(books)) {
+const book = Object.enteries(value);
+for(let i= 0, i <book.length; i++){
+if (book[i][0] == 'author' && book[i][1] == req.params.author) {
+ans.push(book[Key]);}
+}
+}
+if(ans.length == 0) {
+return res.status(300).json ({message: "Author not found"});
+}
+res.send(ans);
+});
