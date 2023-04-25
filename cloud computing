@@ -1,0 +1,20 @@
+<ListBucketResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/">
+<script>window._wordtune_extension_installed = true;</script>
+<Name>cloud-object-storage-cos-standard-vvx</Name>
+<Prefix/>
+<Marker/>
+<MaxKeys>1000</MaxKeys>
+<Delimiter/>
+<IsTruncated>false</IsTruncated>
+<Contents>
+<Key>index.html</Key>
+<LastModified>2023-04-25T04:58:57.811Z</LastModified>
+<ETag>"600f429d6055037aed62273cda104ce1"</ETag>
+<Size>331</Size>
+<Owner>
+<ID>159aeef4-33d2-4290-9820-d145eb15fab5</ID>
+<DisplayName>159aeef4-33d2-4290-9820-d145eb15fab5</DisplayName>
+</Owner>
+<StorageClass>STANDARD</StorageClass>
+</Contents>
+</ListBucketResult>
